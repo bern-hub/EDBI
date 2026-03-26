@@ -20,7 +20,7 @@ int main(){
 
     while (tamanho <= maior_tamanho){
 
-        for (int = 0; i < qtd_medicoes; i++){
+        for (int i = 0; i < qtd_medicoes; i++){
             int chave = -10;
 
 
@@ -31,7 +31,7 @@ int main(){
             busca(arr, tamanho, chave);
 
 
-            auto fim = std::chrono::high_resolution_clock::now():
+            auto fim = std::chrono::high_resolution_clock::now();
 
 
 
