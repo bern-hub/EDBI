@@ -42,6 +42,6 @@ int calcularMedia(int v[], int tamanho){
         return 0;
     }
 
-    int somatotal = somaRecursiva(int v[], tamanho);
+    int somatotal = somaRecursiva(v[], tamanho);
     return somatotal / tamanho;
 }
